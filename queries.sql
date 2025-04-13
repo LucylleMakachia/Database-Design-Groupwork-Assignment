@@ -59,6 +59,7 @@ HAVING total_quantity > 10
 ORDER BY total_quantity DESC;
 
 
+<<<<<<< HEAD
 -- List all countries and the number of customers in each country
 SELECT co.name AS country_name, COUNT(DISTINCT c.customer_id) AS total_customers
 FROM country co
@@ -133,3 +134,6 @@ SELECT oh.history_id, oh.change_date, os.status_name
 FROM order_history oh
 JOIN order_status os ON oh.status_id = os.status_id
 WHERE oh.order_id = 101;
+=======
+
+>>>>>>> 94db3e7dcc6075e79e47dbeb84028996b966e1b2
