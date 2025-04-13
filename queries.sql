@@ -59,10 +59,4 @@ HAVING total_quantity > 10
 ORDER BY total_quantity DESC;
 
 
--- List all countries and the number of customers in each country
-SELECT co.name AS country_name, COUNT(DISTINCT c.customer_id) AS total_customers
-FROM country co
-JOIN address a ON co.country_id = a.country_id
-JOIN customer_address ca ON a.address_id = ca.address_id
-JOIN customer c ON ca.customer_id = c.customer_id
-GROUP BY co.country_id, co.name;
+
