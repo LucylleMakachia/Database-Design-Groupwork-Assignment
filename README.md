@@ -63,6 +63,8 @@ Run SQL queries to test data insertion, retrieval, joins, and security rules.
 
 
 Tables We Created:
+![Table Relationships](bookstore.png)
+
 
 Table Name	Description
 book	Stores details of all books available in the store
