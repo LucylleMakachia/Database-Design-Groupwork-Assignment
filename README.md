@@ -62,24 +62,23 @@ Run SQL queries to test data insertion, retrieval, joins, and security rules.
 
 ![Table Relationships](bookstore.png)
 
-Table Name	Description
-book: Stores details of all books available in the store
-book_author:	Manages the many-to-many relationship between books and authors
-author:	Contains author information
-book_language:	Lists possible languages for books
-publisher:	Contains publisher details
-customer:	Stores customer information
-customer_address:	Links customers to multiple addresses
-address_status:	Defines address types (e.g., current, old)
-address:	Contains physical address data
-country:	Lists all countries tied to addresses
-cust_order:	Stores customer order details
-order_line:	Contains books associated with each order
-shipping_method:	Lists available shipping methods
-order_history:	Records order events and changes over time
-order_status:	Defines different order statuses (e.g., pending, shipped, delivered)
+1. book: Stores details of all books available in the store
+2. book_author:	Manages the many-to-many relationship between books and authors
+3. author:	Contains author information
+4. book_language:	Lists possible languages for books
+5. publisher:	Contains publisher details
+6. customer:	Stores customer information
+7. customer_address:	Links customers to multiple addresses
+8. address_status:	Defines address types (e.g., current, old)
+9. address:	Contains physical address data
+10. country:	Lists all countries tied to addresses
+11. cust_order:	Stores customer order details
+12. order_line:	Contains books associated with each order
+13. shipping_method:	Lists available shipping methods
+14. order_history:	Records order events and changes over time
+15. order_status:	Defines different order statuses (e.g., pending, shipped, delivered)
 
-Authors:
-Lilian Igwegbe
-Lucylle Makachia
-Sharon Kipsang
+### Authors:
+1. Lilian Igwegbe
+2. Lucylle Makachia
+3. Sharon Kipsang
